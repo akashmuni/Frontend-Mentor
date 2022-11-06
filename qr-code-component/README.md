@@ -35,7 +35,7 @@ Buindilg a QR code component and get it looking as close to the design as possib
 
 ## Author
 
-- Linkedin - [Add your name here](https://www.linkedin.com/in/akashmuni/)
+- Linkedin - [Akash Muni](https://www.linkedin.com/in/akashmuni/)
 - Frontend Mentor - [@akashmuni](https://www.frontendmentor.io/profile/akashmuni)
 - Twitter - [@akash\_\_codes](https://www.twitter.com/akash__codes)
 
