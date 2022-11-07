@@ -10,10 +10,9 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
   - [Built with](#built-with)
 - [Author](#author)
 
-
 ## Overview
 
-Buindilg a QR code component and get it looking as close to the design as possible.
+Buindilg a product preview card component and get it looking as close to the design as possible.
 
 ### Screenshot
 
@@ -22,14 +21,14 @@ Buindilg a QR code component and get it looking as close to the design as possib
 ### Links
 
 - Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/qr-code-component-using-grid-and-flex-r_6-hEHL9S)
-- Live Site URL: [QR Code Component](https://qr-code-component-fm-akash-muni.netlify.app)
+- Live Site URL: [Product Preview Card Component](https://product-preview-card-fm-akash-muni.netlify.app/)
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
+- Media Queries
 - Mobile-first workflow
 
 ## Author
