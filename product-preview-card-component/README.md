@@ -20,7 +20,7 @@ Buindilg a product preview card component and get it looking as close to the des
 
 ### Links
 
-- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/qr-code-component-using-grid-and-flex-r_6-hEHL9S)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/product-preview-card-component-using-media-queries-OJzv1fWdr1)
 - Live Site URL: [Product Preview Card Component](https://product-preview-card-fm-akash-muni.netlify.app/)
 
 ### Built with
