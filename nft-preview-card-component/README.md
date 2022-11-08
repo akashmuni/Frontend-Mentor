@@ -10,9 +10,10 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
   - [Built with](#built-with)
 - [Author](#author)
 
+
 ## Overview
 
-Building a product preview card component and get it looking as close to the design as possible.
+Building a NFT Preview Card Component and get it looking as close to the design as possible.
 
 ### Screenshot
 
@@ -20,15 +21,15 @@ Building a product preview card component and get it looking as close to the des
 
 ### Links
 
-- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/product-preview-card-component-using-media-queries-OJzv1fWdr1)
-- Live Site URL: [Product Preview Card Component](https://product-preview-card-fm-akash-muni.netlify.app/)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/qr-code-component-using-grid-and-flex-r_6-hEHL9S)
+- Live Site URL: [NFT Preview Card Component](https://nft-card-preview-fm-akash-muni.netlify.app/)
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- Media Queries
+- Css Hover
 - Mobile-first workflow
 
 ## Author
