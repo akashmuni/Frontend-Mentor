@@ -58,6 +58,7 @@
         display: block;
         height: auto;
         border-radius: 0.5rem;
+        cursor: pointer;
       }
       .img-box {
         position: relative;
@@ -93,11 +94,13 @@
         margin-top: 1.5rem;
         text-decoration: none;
         display: block;
+        font-weight: 600;
       }
       .card-description {
-        font-weight: 1.8rem;
+        font-size: 1rem;
         color: var(--soft-blue);
         margin-top: 1rem;
+        font-weight: 400;
       }
       .card-info {
         display: flex;
@@ -105,6 +108,7 @@
         align-items: center;
         padding: 1.5rem 0;
         border-bottom: 1px solid var(--very-dark-blue-line);
+        font-weight: 400;
       }
       .card-info > * {
         display: flex;
@@ -125,6 +129,7 @@
       .avatar-txt {
         color: var(--soft-blue);
         font-size: 0.9rem;
+        font-weight: 300;
       }
       .avatar {
         width: 2rem;
@@ -156,7 +161,7 @@
       }
       @media only screen and (max-width: 600px){
         .nft-card {
-         scale: 1.5;
+          transform: scale(1.5);
         }
       }
     </style>
@@ -164,9 +169,8 @@
   <body>
     <main class="nft-card">
       <div class="img-box">
-        <a href="#"
-          ><img src="./images/image-equilibrium.jpg" alt="" class="main-img"
-        /></a>
+      <img src="./images/image-equilibrium.jpg" alt="" class="main-img"
+        />
         <div class="overlay">
           <img src="./images/icon-view.svg" alt="" class="view-icon" />
         </div>
