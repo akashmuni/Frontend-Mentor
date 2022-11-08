@@ -21,7 +21,7 @@ Building a NFT Preview Card Component and get it looking as close to the design 
 
 ### Links
 
-- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/qr-code-component-using-grid-and-flex-r_6-hEHL9S)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/nft-preview-card-component-having-hover-effects-A59-dSiJDv)
 - Live Site URL: [NFT Preview Card Component](https://nft-card-preview-fm-akash-muni.netlify.app/)
 
 ### Built with
