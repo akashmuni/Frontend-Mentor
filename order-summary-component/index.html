@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Order summary card</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      :root {
+        --pale-blue: hsl(225, 100%, 94%);
+        --bright-blue: hsl(245, 75%, 52%);
+        --very-pale-blue: hsl(225, 100%, 98%);
+        --desaturated-blue: hsl(224, 23%, 55%);
+        --dark-blue: hsl(223, 47%, 23%);
+      }
+      html {
+        font-family: "Red Hat Display", sans-serif;
+        font-size: 10px;
+      }
+      body {
+        /* background-color: var(--pale-blue); */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        width: 100%;
+        background-image: url(./images/pattern-background-desktop.svg);
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-color: var(--pale-blue);
+      }
+      .hero-img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+      }
+      .order-component {
+        width: 30em;
+        background-color: #fff;
+        border-radius: 1rem;
+      }
+      .order-content {
+        padding: 2rem 2.5rem;
+      }
+      .order-content h1 {
+        text-align: center;
+        font-size: 2.1rem;
+        font-weight: 900;
+        color: var(--dark-blue);
+      }
+      .order-content > p {
+        text-align: center;
+        font-size: 1.2rem;
+        margin-top: 1rem;
+        color: var(--desaturated-blue);
+      }
+      .hero-img {
+        border-radius: 1rem 1rem 0 0;
+      }
+      .price-tag {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: var(--very-pale-blue);
+        border-radius: 5px;
+        padding: 1rem 1.5rem;
+        margin-top: 2rem;
+      }
+      .price {
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+      }
+      .music-icon {
+        width: 30px;
+        height: 30px;
+      }
+      .payment-btn {
+        background-color: var(--bright-blue);
+        border: none;
+        border-radius: 6px;
+        color: #fff;
+        width: 100%;
+        padding: 0.8rem 0;
+        font-size: 1.2rem;
+        margin-top: 2rem;
+        cursor: pointer;
+        font-weight: 400;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;      
+      }
+      .cancel-btn {
+        text-align: center;
+        display: block;
+        margin-top: 1.5rem;
+        cursor: pointer;
+        text-decoration: none;
+        color: var(--desaturated-blue);
+        font-weight: 700;
+
+      }
+      .cancel-btn:hover {
+        color: var(--dark-blue);
+      }
+      .payment-btn:hover {
+        opacity: 0.7;
+      }
+      .price-txt {
+        font-weight: 400;
+        font-size: 1rem;
+        color: var(--desaturated-blue);
+        line-height: 2rem;
+      }
+      .change {
+        color: var(--bright-blue);
+        font-weight: 700;
+      }
+      .change:hover {
+        opacity: 0.7;
+      }
+      .attribution {
+        font-size: 1.1rem;
+        text-align: center;
+        margin-top: 2rem;
+      }
+      .attribution a {
+        color: var(--bright-blue);
+      }
+    </style>
+  </head>
+  <body>
+    <main class="order-component">
+      <img src="./images/illustration-hero.svg" alt="" class="hero-img" />
+      <div class="order-content">
+        <h1>Order Summary</h1>
+        <!-- <img src="./images/pattern-background-desktop.svg" alt="" class="hero-img"/> -->
+        <p>
+          You can now listen to millions of songs, audiobooks, and podcasts on
+          any device anywhere you like!
+        </p>
+        <div class="price-tag">
+          <div class="price">
+            <img src="./images/icon-music.svg" alt="" class="music-icon"/>
+            <p><b>Annual Plan</b><br><span class="price-txt">$59.99/year</span></p>
+          </div>
+          <a href="" class="change">Change</a>
+        </div>
+        <button class="payment-btn">Proceed to Payment</button>
+        <a href="#" class="cancel-btn">Cancel Order</a>
+      </div>
+    </main>
+
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://www.frontendmentor.io/profile/akashmuni" target="_blank"
+        >Akash Muni</a
+      >.
+    </footer>
+  </body>
+</html>
