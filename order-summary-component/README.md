@@ -13,7 +13,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ## Overview
 
-Building a NFT Preview Card Component and get it looking as close to the design as possible.
+Building a Order Summary Component and get it looking as close to the design as possible.
 
 ### Screenshot
 
@@ -21,8 +21,8 @@ Building a NFT Preview Card Component and get it looking as close to the design 
 
 ### Links
 
-- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/nft-preview-card-component-having-hover-effects-A59-dSiJDv)
-- Live Site URL: [NFT Preview Card Component](https://nft-card-preview-fm-akash-muni.netlify.app/)
+- Solution URL: [Frontend Mentor](https://github.com/akashmuni/Frontend-Mentor/tree/main/order-summary-component)
+- Live Site URL: [Order Summary Component](https://order-summary-component-fm-akash-muni.netlify.app/)
 
 ### Built with
 
