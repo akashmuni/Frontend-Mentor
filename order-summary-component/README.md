@@ -21,7 +21,7 @@ Building a Order Summary Component and get it looking as close to the design as 
 
 ### Links
 
-- Solution URL: [Frontend Mentor](https://github.com/akashmuni/Frontend-Mentor/tree/main/order-summary-component)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/order-summary-component-using-flexbox-nvRfAP5auH)
 - Live Site URL: [Order Summary Component](https://order-summary-component-fm-akash-muni.netlify.app/)
 
 ### Built with
