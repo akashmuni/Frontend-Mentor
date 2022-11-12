@@ -21,7 +21,7 @@ Building a Huddle landing page with a single introductory section and get it loo
 
 ### Links
 
-- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/nft-preview-card-component-having-hover-effects-A59-dSiJDv)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/huddle-landing-page-using-flexbox-66AzOVxm1Q)
 - Live Site URL: [Huddle Landing Page](https://huddle-landing-page-fm-akash-muni.netlify.app/)
 
 ### Built with
